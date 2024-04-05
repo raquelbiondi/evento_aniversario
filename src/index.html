@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento de Niver</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="./images/header.jpg" alt="Imagem do evento">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/cake.jpg" alt="header evento">
+            <p class="hero__text">
+                O maior evento de aniversário do ano começa em
+                <span id="contador"></span>
+            </p>
+
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Baron Rock bar - Rua Augusta - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item"><b>Entrada</b>
+                        Gratuita
+                    </li>
+                    <li class="infos-bar__infos__item"><b>Quando</b>
+                        07/12/2024
+                    </li>
+                </ul>
+                <a href="#" class="button">Confirme sua presença</a>
+            </div>
         </div>
     </header>
 

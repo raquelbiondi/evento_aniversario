@@ -1,0 +1,18 @@
+.hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        position: relative;
+    }
+    &__logo {
+        margin: 0 auto;
+        height: 150px;
+        display: block;
+        border-radius: 80px;
+    }
+}
