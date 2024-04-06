@@ -1,0 +1,35 @@
+@use 'variaveis';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border: 3px dashed variaveis.$corBordaBotao;
+    border-radius: 4px;
+
+//
+    &--primary {
+        color: variaveis.$corTexto;
+        background-color: variaveis.$corFundoBotao;
+
+        &:hover{
+            font-style: italic;
+            color: variaveis.$corTextoBotao;
+        }
+    }
+
+    @media (max-width: 640px){
+        display: block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
