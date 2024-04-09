@@ -1,7 +1,6 @@
 {
   "name": "birthday_event",
   "version": "1.0.0",
-  
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "build": "parcel build src/index.html",
@@ -85,8 +84,6 @@
     "js-yaml": "^4.1.0",
     "json-parse-even-better-errors": "^2.3.1",
     "json5": "^2.2.3",
-    "lightningcss": "^1.24.1",
-    "lightningcss-win32-x64-msvc": "^1.24.1",
     "lines-and-columns": "^1.2.4",
     "lmdb": "^2.8.5",
     "lru-cache": "^6.0.0",
@@ -154,5 +151,6 @@
     "wrappy": "^1.0.2",
     "yallist": "^4.0.0"
   },
+  "main": "index.js",
   "description": ""
 }
